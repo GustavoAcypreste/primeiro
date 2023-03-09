@@ -1,0 +1,68 @@
+body {
+    font-family: 'Inter';
+}
+
+nav {
+    width: 1280px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 148px;
+    height: 32px;
+}
+
+.paginas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 362px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.paginas a {
+    text-decoration: none;
+    color: #667085;
+
+}
+
+.paginas li :hover{
+    color: #8E2424;
+}
+
+.botoes {
+    display: flex;    
+    align-items: center;
+    gap: 12px;
+    width: 207px;
+    height: 44px; 
+   
+}
+
+.botoes button{
+    background: none;
+    border: none;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter'; 
+    cursor: pointer;
+}
+
+#botao-cadastrar {
+    background-color: #8E2424;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 18px;
+}
