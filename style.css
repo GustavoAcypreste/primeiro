@@ -1,3 +1,16 @@
+:root {
+    --Burnt-Umber: #8E2424;
+    --Pale-Sky: #667085;
+    --Ebony: #101828;
+    --Thunderbird: #C31919;
+    --white: #ffffff;
+
+}
+
+* {
+    font-family: 'Inter' , 'sans-serif';
+}
+
 body {
     font-family: 'Inter';
 }
@@ -33,12 +46,11 @@ nav {
 
 .paginas a {
     text-decoration: none;
-    color: #667085;
-
+    color: var(--Pale-Sky);
 }
 
 .paginas li :hover{
-    color: #8E2424;
+    color: var(--Burnt-Umber);
 }
 
 .botoes {
@@ -50,19 +62,104 @@ nav {
    
 }
 
-.botoes button{
+.botoes button {
     background: none;
     border: none;
-    color: #667085;
+    color: var(--Pale-Sky);
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Inter'; 
     cursor: pointer;
 }
 
 #botao-cadastrar {
-    background-color: #8E2424;
-    color: #ffffff;
+    background-color: var(--Burnt-Umber);
+    color: var(--white);
     border-radius: 8px;
     padding: 10px 18px;
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+    gap: 24px;
+}
+
+.sobretitulo {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--Burnt-Umber);
+}
+
+.titulo {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 60px;
+    color: var(--Ebony);
+    padding: 0 32px;
+}
+
+.sobre-descricao {
+    text-align: center;
+    color: var(--Pale-Sky);
+    width: 792px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 12px;
+}
+
+.infos-empresa {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 96px ;
+    
+    
+}
+
+.infos-lista{
+    width: 1280px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 32px;
+    gap: 32px;
+    
+}
+
+.infos-lista li{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    gap: 20px;
+    text-align: left;
+}
+
+.info-numero {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1px;
+    color: var(--Burnt-Umber);
+
+}
+
+.subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: var(--Ebony);
+    
+}
+
+.info-descricao{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: var(--Pale-Sky);
+     
 }
