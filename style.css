@@ -146,20 +146,231 @@ nav {
 
 }
 
-.subtitulo{
+.subtitulo {
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0;
     color: var(--Ebony);
-    
+
 }
 
-.info-descricao{
+.info-descricao {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0;
+    color: var(--Pale-Sky); 
+
+}
+
+.vagas-secao {
+    padding: 96px 0;
+}
+
+.vagas-empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.vagas-chamada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 32px;
+
+}
+
+.vagas-sobretitulo {
+    color: var(--Burnt-Umber);
+    background-color: rgb(142, 36, 36, 0.05) ;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+
+.vagas-titulo {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: var(--Ebony);
+    margin-bottom: 20px;
+
+}
+
+.vagas-descricao {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: center;
     color: var(--Pale-Sky);
-     
+}
+
+.vagas-img {
+    width: 1216px;
+    height: 400px;
+    padding: 64px 0;
+}
+
+
+.vagas-lista-titulo{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0;
+
+}
+
+.informacoes-cargo{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    
+}
+
+.cargos-tipo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+}
+
+.cargos-tipo-titulo {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 8px;
+    color: var(--Ebony);
+
+}
+
+.cargos-descricao {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 24px 24px 24px 28px;
+    gap: 32px;
+}
+
+.cargos-descricao-titulo {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: left;
+    color: var(--Ebony);
+    
+}
+
+.cargos-descricao-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+    color: var(--Pale-Sky);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.feedbacks {
+    padding-bottom: 96px;
+}
+
+.feedbacks-conteudo {
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.feedbacks-conteudo-box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(142, 36, 36, 0.05);
+    padding: 64px;
+    gap: 32px;
+}
+
+.feedbacks-conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.feedbacks-conteudo-pessoas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.feedbacks-conteudo-descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.feedbacks-conteudo-sobretitulo {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    color: var(--Burnt-Umber);
+       
+}
+
+.feedbacks-conteudo-titulo {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -1%;
+    text-align: center;
+    color: var(--Ebony);
+    
+}
+
+.feedbacks-conteudo-nome {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--Ebony);
+
+}
+
+
+.feedbacks-conteudo-cargo {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--Pale-Sky);
+      
 }
