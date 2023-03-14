@@ -58,8 +58,7 @@ nav {
     align-items: center;
     gap: 12px;
     width: 207px;
-    height: 44px; 
-   
+    height: 44px;   
 }
 
 .botoes button {
@@ -114,9 +113,7 @@ nav {
 .infos-empresa {
     display: flex;
     justify-content: center;
-    padding-bottom: 96px ;
-    
-    
+    padding-bottom: 96px ;    
 }
 
 .infos-lista{
@@ -125,8 +122,7 @@ nav {
     align-items: flex-start;
     justify-content: center;
     padding: 0 32px;
-    gap: 32px;
-    
+    gap: 32px;    
 }
 
 .infos-lista li{
@@ -143,7 +139,6 @@ nav {
     line-height: 72px;
     letter-spacing: -1px;
     color: var(--Burnt-Umber);
-
 }
 
 .subtitulo {
@@ -152,7 +147,6 @@ nav {
     line-height: 28px;
     letter-spacing: 0;
     color: var(--Ebony);
-
 }
 
 .info-descricao {
@@ -161,7 +155,6 @@ nav {
     line-height: 24px;
     letter-spacing: 0;
     color: var(--Pale-Sky); 
-
 }
 
 .vagas-secao {
@@ -172,7 +165,6 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .vagas-chamada {
@@ -180,7 +172,6 @@ nav {
     flex-direction: column;
     align-items: center;
     padding: 0 32px;
-
 }
 
 .vagas-sobretitulo {
@@ -194,7 +185,6 @@ nav {
     letter-spacing: 0;
     text-align: center;
     margin-bottom: 16px;
-
 }
 
 .vagas-titulo {
@@ -205,7 +195,6 @@ nav {
     text-align: center;
     color: var(--Ebony);
     margin-bottom: 20px;
-
 }
 
 .vagas-descricao {
@@ -229,7 +218,6 @@ nav {
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0;
-
 }
 
 .informacoes-cargo{
@@ -238,17 +226,15 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 64px;
-    
+    gap: 64px; 
 }
 
 .cargos-tipo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
-
 }
 
 .cargos-tipo-titulo {
@@ -259,7 +245,6 @@ nav {
     text-align: left;
     margin-bottom: 8px;
     color: var(--Ebony);
-
 }
 
 .cargos-descricao {
@@ -279,8 +264,7 @@ nav {
     line-height: 28px;
     letter-spacing: 0;
     text-align: left;
-    color: var(--Ebony);
-    
+    color: var(--Ebony); 
 }
 
 .cargos-descricao-info {
@@ -301,8 +285,7 @@ nav {
 
 .feedbacks-conteudo {
     width: 1280px;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 
 .feedbacks-conteudo-box {
@@ -340,8 +323,7 @@ nav {
     line-height: 20px;
     letter-spacing: 0;
     text-align: center;
-    color: var(--Burnt-Umber);
-       
+    color: var(--Burnt-Umber);   
 }
 
 .feedbacks-conteudo-titulo {
@@ -351,7 +333,6 @@ nav {
     letter-spacing: -1%;
     text-align: center;
     color: var(--Ebony);
-    
 }
 
 .feedbacks-conteudo-nome {
@@ -361,7 +342,6 @@ nav {
     letter-spacing: 0em;
     text-align: center;
     color: var(--Ebony);
-
 }
 
 
@@ -371,6 +351,96 @@ nav {
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
+    color: var(--Pale-Sky);   
+}
+
+.oportunidades-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+    gap: 32px;
+}
+
+.oportunidades-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.oportunidades-conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.oportunidades-conteudo-titulo {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -1px;
+    color: var(--Ebony);
+}
+
+.oportunidades-conteudo-subtitulo {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--Pale-Sky); 
+}
+
+.oportunidades-cadastrar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.oportunidades-cadastrar-label {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    padding: 12px 14px 12px 16px;
+}
+
+.oportunidades-cadastrar-input {
+    width: 330px;
+    height: 24px;
+    border: none;
+    
+}
+
+::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
     color: var(--Pale-Sky);
-      
+}
+
+#oportunidades-cadastrar-botao {
+    border: 1px solid var(--Burnt-Umber);
+    border-radius: 8px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: var(--white);
+    background-color: var(--Burnt-Umber);
+}
+
+.texto-copyright {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #98A2B3;
+    
 }
