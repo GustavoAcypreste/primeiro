@@ -70,12 +70,21 @@ nav {
     cursor: pointer;
 }
 
+.botoes :hover {
+    color: var(--Burnt-Umber);
+}
+
 #botao-cadastrar {
     background-color: var(--Burnt-Umber);
     color: var(--white);
     border-radius: 8px;
     padding: 10px 18px;
 }
+
+#botao-cadastrar:hover {
+   font-size: 17px ;
+}
+
 
 .landing-page {
     display: flex;
@@ -139,6 +148,10 @@ nav {
     line-height: 72px;
     letter-spacing: -1px;
     color: var(--Burnt-Umber);
+}
+
+.info-numero:hover {
+    font-size: 65px ;
 }
 
 .subtitulo {
@@ -258,6 +271,10 @@ nav {
     gap: 32px;
 }
 
+.cargos-descricao:hover {
+    border: 3px solid #EAECF0;
+    box-shadow: 1px 1px 5px var(--Pale-Sky), -1px 1px 5px var(--Pale-Sky);
+}
 .cargos-descricao-titulo {
     font-size: 18px;
     font-weight: 500;
@@ -433,6 +450,10 @@ nav {
     text-align: left;
     color: var(--white);
     background-color: var(--Burnt-Umber);
+}
+
+#oportunidades-cadastrar-botao:hover {
+    font-size: 17px;
 }
 
 .texto-copyright {
